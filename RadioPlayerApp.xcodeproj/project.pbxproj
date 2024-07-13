@@ -7,15 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4445C0B22C41BA3200B43C72 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0B12C41BA3200B43C72 /* DBManager.swift */; };
+		4445C0B52C42055300B43C72 /* RadioCountryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0B42C42055300B43C72 /* RadioCountryRequest.swift */; };
+		4445C0B72C42056B00B43C72 /* RadioCountryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0B62C42056B00B43C72 /* RadioCountryInfo.swift */; };
+		4445C0C12C426D4200B43C72 /* CountryRadioListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0C02C426D4200B43C72 /* CountryRadioListView.swift */; };
+		4445C0C32C426F3000B43C72 /* CountryRadioListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0C22C426F3000B43C72 /* CountryRadioListModel.swift */; };
+		4445C0C52C426F4200B43C72 /* CountryRadioListIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0C42C426F4200B43C72 /* CountryRadioListIntent.swift */; };
+		4445C0CD2C4315E400B43C72 /* RadioKeywordRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0CC2C4315E400B43C72 /* RadioKeywordRequest.swift */; };
+		4445C0CF2C43162300B43C72 /* KeywordRadioListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0CE2C43162300B43C72 /* KeywordRadioListView.swift */; };
+		4445C0D12C43163E00B43C72 /* KeywordSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0D02C43163E00B43C72 /* KeywordSearchModel.swift */; };
+		4445C0D32C431D1E00B43C72 /* KeywordSearchIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0D22C431D1E00B43C72 /* KeywordSearchIntent.swift */; };
+		4445C0D52C431D4F00B43C72 /* KeywordSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0D42C431D4F00B43C72 /* KeywordSearchView.swift */; };
+		4445C0D72C431E0A00B43C72 /* RadioKeywordInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0D62C431E0A00B43C72 /* RadioKeywordInfo.swift */; };
+		4445C0E12C432F9A00B43C72 /* RadioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0E02C432F9A00B43C72 /* RadioPlayerView.swift */; };
+		4445C0E32C432FDC00B43C72 /* KeywordRadioListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0E22C432FDC00B43C72 /* KeywordRadioListModel.swift */; };
+		4445C0E52C432FF600B43C72 /* KeywordRadioListIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0E42C432FF600B43C72 /* KeywordRadioListIntent.swift */; };
+		4445C0E72C43382100B43C72 /* RadioInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0E62C43382100B43C72 /* RadioInfo.swift */; };
 		44F76C472C3E20FC00708959 /* RadioPlayerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F76C462C3E20FC00708959 /* RadioPlayerAppApp.swift */; };
 		44F76C492C3E20FC00708959 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F76C482C3E20FC00708959 /* ContentView.swift */; };
 		44F76C4B2C3E210200708959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44F76C4A2C3E210200708959 /* Assets.xcassets */; };
 		44F76C4E2C3E210200708959 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44F76C4D2C3E210200708959 /* Preview Assets.xcassets */; };
 		44F76C502C3E210200708959 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F76C4F2C3E210200708959 /* Persistence.swift */; };
 		44F76C532C3E210200708959 /* RadioPlayerApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44F76C512C3E210200708959 /* RadioPlayerApp.xcdatamodeld */; };
+		44F76C5E2C3E409D00708959 /* MVIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F76C5D2C3E409D00708959 /* MVIContainer.swift */; };
+		44F76C602C3E4F0D00708959 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F76C5F2C3E4F0D00708959 /* HomePage.swift */; };
+		44F76C6F2C3E502400708959 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F76C6E2C3E502400708959 /* HttpClient.swift */; };
+		44F76C732C3E539200708959 /* RadioSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F76C722C3E539200708959 /* RadioSearchView.swift */; };
+		44F76C792C3E693800708959 /* RadioSearchIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F76C782C3E693800708959 /* RadioSearchIntent.swift */; };
+		44F76C7B2C3E694900708959 /* RadioSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F76C7A2C3E694900708959 /* RadioSearchModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4445C0B12C41BA3200B43C72 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		4445C0B42C42055300B43C72 /* RadioCountryRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioCountryRequest.swift; sourceTree = "<group>"; };
+		4445C0B62C42056B00B43C72 /* RadioCountryInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioCountryInfo.swift; sourceTree = "<group>"; };
+		4445C0C02C426D4200B43C72 /* CountryRadioListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryRadioListView.swift; sourceTree = "<group>"; };
+		4445C0C22C426F3000B43C72 /* CountryRadioListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryRadioListModel.swift; sourceTree = "<group>"; };
+		4445C0C42C426F4200B43C72 /* CountryRadioListIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryRadioListIntent.swift; sourceTree = "<group>"; };
+		4445C0CC2C4315E400B43C72 /* RadioKeywordRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioKeywordRequest.swift; sourceTree = "<group>"; };
+		4445C0CE2C43162300B43C72 /* KeywordRadioListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordRadioListView.swift; sourceTree = "<group>"; };
+		4445C0D02C43163E00B43C72 /* KeywordSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordSearchModel.swift; sourceTree = "<group>"; };
+		4445C0D22C431D1E00B43C72 /* KeywordSearchIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordSearchIntent.swift; sourceTree = "<group>"; };
+		4445C0D42C431D4F00B43C72 /* KeywordSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordSearchView.swift; sourceTree = "<group>"; };
+		4445C0D62C431E0A00B43C72 /* RadioKeywordInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioKeywordInfo.swift; sourceTree = "<group>"; };
+		4445C0E02C432F9A00B43C72 /* RadioPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioPlayerView.swift; sourceTree = "<group>"; };
+		4445C0E22C432FDC00B43C72 /* KeywordRadioListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordRadioListModel.swift; sourceTree = "<group>"; };
+		4445C0E42C432FF600B43C72 /* KeywordRadioListIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordRadioListIntent.swift; sourceTree = "<group>"; };
+		4445C0E62C43382100B43C72 /* RadioInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioInfo.swift; sourceTree = "<group>"; };
 		44F76C432C3E20FC00708959 /* RadioPlayerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioPlayerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44F76C462C3E20FC00708959 /* RadioPlayerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioPlayerAppApp.swift; sourceTree = "<group>"; };
 		44F76C482C3E20FC00708959 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +61,12 @@
 		44F76C4D2C3E210200708959 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		44F76C4F2C3E210200708959 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		44F76C522C3E210200708959 /* RadioPlayerApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RadioPlayerApp.xcdatamodel; sourceTree = "<group>"; };
+		44F76C5D2C3E409D00708959 /* MVIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVIContainer.swift; sourceTree = "<group>"; };
+		44F76C5F2C3E4F0D00708959 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		44F76C6E2C3E502400708959 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		44F76C722C3E539200708959 /* RadioSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RadioSearchView.swift; path = RadioPlayerApp/RadioSearchPage/View/RadioSearchView.swift; sourceTree = SOURCE_ROOT; };
+		44F76C782C3E693800708959 /* RadioSearchIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RadioSearchIntent.swift; path = RadioPlayerApp/RadioSearchPage/Intent/RadioSearchIntent.swift; sourceTree = SOURCE_ROOT; };
+		44F76C7A2C3E694900708959 /* RadioSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RadioSearchModel.swift; path = RadioPlayerApp/RadioSearchPage/Model/RadioSearchModel.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +80,162 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4445C0B32C42053500B43C72 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				4445C0E62C43382100B43C72 /* RadioInfo.swift */,
+				4445C0B42C42055300B43C72 /* RadioCountryRequest.swift */,
+				4445C0B62C42056B00B43C72 /* RadioCountryInfo.swift */,
+				4445C0CC2C4315E400B43C72 /* RadioKeywordRequest.swift */,
+				4445C0D62C431E0A00B43C72 /* RadioKeywordInfo.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		4445C0B82C420EE000B43C72 /* RadioSearchPage */ = {
+			isa = PBXGroup;
+			children = (
+				4445C0B92C420F1400B43C72 /* Model */,
+				4445C0BA2C420F1400B43C72 /* Intent */,
+				4445C0BB2C420F1500B43C72 /* View */,
+			);
+			path = RadioSearchPage;
+			sourceTree = "<group>";
+		};
+		4445C0B92C420F1400B43C72 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44F76C7A2C3E694900708959 /* RadioSearchModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4445C0BA2C420F1400B43C72 /* Intent */ = {
+			isa = PBXGroup;
+			children = (
+				44F76C782C3E693800708959 /* RadioSearchIntent.swift */,
+			);
+			path = Intent;
+			sourceTree = "<group>";
+		};
+		4445C0BB2C420F1500B43C72 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44F76C722C3E539200708959 /* RadioSearchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4445C0BC2C426B8200B43C72 /* Intent */ = {
+			isa = PBXGroup;
+			children = (
+				4445C0C42C426F4200B43C72 /* CountryRadioListIntent.swift */,
+			);
+			path = Intent;
+			sourceTree = "<group>";
+		};
+		4445C0BD2C426B8200B43C72 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4445C0C22C426F3000B43C72 /* CountryRadioListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4445C0BE2C426B8200B43C72 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4445C0C02C426D4200B43C72 /* CountryRadioListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4445C0BF2C426B8200B43C72 /* CountryRadioListPage */ = {
+			isa = PBXGroup;
+			children = (
+				4445C0BD2C426B8200B43C72 /* Model */,
+				4445C0BC2C426B8200B43C72 /* Intent */,
+				4445C0BE2C426B8200B43C72 /* View */,
+			);
+			path = CountryRadioListPage;
+			sourceTree = "<group>";
+		};
+		4445C0C62C43151600B43C72 /* KeywordSearchPage */ = {
+			isa = PBXGroup;
+			children = (
+				44F76C622C3E4FD600708959 /* Model */,
+				44F76C612C3E4FD600708959 /* Intent */,
+				44F76C632C3E4FD600708959 /* View */,
+			);
+			path = KeywordSearchPage;
+			sourceTree = "<group>";
+		};
+		4445C0C82C4315A900B43C72 /* Intent */ = {
+			isa = PBXGroup;
+			children = (
+				4445C0E42C432FF600B43C72 /* KeywordRadioListIntent.swift */,
+			);
+			path = Intent;
+			sourceTree = "<group>";
+		};
+		4445C0C92C4315A900B43C72 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4445C0E22C432FDC00B43C72 /* KeywordRadioListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4445C0CA2C4315A900B43C72 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4445C0CE2C43162300B43C72 /* KeywordRadioListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4445C0CB2C4315A900B43C72 /* KeywordRadioListPage */ = {
+			isa = PBXGroup;
+			children = (
+				4445C0C92C4315A900B43C72 /* Model */,
+				4445C0C82C4315A900B43C72 /* Intent */,
+				4445C0CA2C4315A900B43C72 /* View */,
+			);
+			path = KeywordRadioListPage;
+			sourceTree = "<group>";
+		};
+		4445C0DC2C432F8400B43C72 /* Intent */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Intent;
+			sourceTree = "<group>";
+		};
+		4445C0DD2C432F8400B43C72 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4445C0DE2C432F8400B43C72 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4445C0E02C432F9A00B43C72 /* RadioPlayerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4445C0DF2C432F8400B43C72 /* RadioPlayerPage */ = {
+			isa = PBXGroup;
+			children = (
+				4445C0DC2C432F8400B43C72 /* Intent */,
+				4445C0DD2C432F8400B43C72 /* Model */,
+				4445C0DE2C432F8400B43C72 /* View */,
+			);
+			path = RadioPlayerPage;
+			sourceTree = "<group>";
+		};
 		44F76C3A2C3E20FC00708959 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +260,15 @@
 				44F76C4A2C3E210200708959 /* Assets.xcassets */,
 				44F76C4F2C3E210200708959 /* Persistence.swift */,
 				44F76C512C3E210200708959 /* RadioPlayerApp.xcdatamodeld */,
+				44F76C5F2C3E4F0D00708959 /* HomePage.swift */,
+				44F76C6D2C3E501500708959 /* Managers */,
+				4445C0B32C42053500B43C72 /* DataModels */,
+				4445C0B82C420EE000B43C72 /* RadioSearchPage */,
+				4445C0BF2C426B8200B43C72 /* CountryRadioListPage */,
+				4445C0C62C43151600B43C72 /* KeywordSearchPage */,
+				4445C0CB2C4315A900B43C72 /* KeywordRadioListPage */,
+				4445C0DF2C432F8400B43C72 /* RadioPlayerPage */,
+				44F76C5C2C3E408900708959 /* Container */,
 				44F76C4C2C3E210200708959 /* Preview Content */,
 			);
 			path = RadioPlayerApp;
@@ -71,6 +280,47 @@
 				44F76C4D2C3E210200708959 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		44F76C5C2C3E408900708959 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				44F76C5D2C3E409D00708959 /* MVIContainer.swift */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		44F76C612C3E4FD600708959 /* Intent */ = {
+			isa = PBXGroup;
+			children = (
+				4445C0D22C431D1E00B43C72 /* KeywordSearchIntent.swift */,
+			);
+			path = Intent;
+			sourceTree = "<group>";
+		};
+		44F76C622C3E4FD600708959 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4445C0D02C43163E00B43C72 /* KeywordSearchModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44F76C632C3E4FD600708959 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4445C0D42C431D4F00B43C72 /* KeywordSearchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44F76C6D2C3E501500708959 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				44F76C6E2C3E502400708959 /* HttpClient.swift */,
+				4445C0B12C41BA3200B43C72 /* DBManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +393,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4445C0CF2C43162300B43C72 /* KeywordRadioListView.swift in Sources */,
+				4445C0B72C42056B00B43C72 /* RadioCountryInfo.swift in Sources */,
+				4445C0B52C42055300B43C72 /* RadioCountryRequest.swift in Sources */,
+				4445C0D72C431E0A00B43C72 /* RadioKeywordInfo.swift in Sources */,
 				44F76C532C3E210200708959 /* RadioPlayerApp.xcdatamodeld in Sources */,
+				44F76C602C3E4F0D00708959 /* HomePage.swift in Sources */,
+				4445C0D52C431D4F00B43C72 /* KeywordSearchView.swift in Sources */,
+				4445C0D32C431D1E00B43C72 /* KeywordSearchIntent.swift in Sources */,
 				44F76C502C3E210200708959 /* Persistence.swift in Sources */,
+				4445C0E72C43382100B43C72 /* RadioInfo.swift in Sources */,
 				44F76C492C3E20FC00708959 /* ContentView.swift in Sources */,
+				4445C0D12C43163E00B43C72 /* KeywordSearchModel.swift in Sources */,
+				4445C0C52C426F4200B43C72 /* CountryRadioListIntent.swift in Sources */,
+				4445C0E52C432FF600B43C72 /* KeywordRadioListIntent.swift in Sources */,
+				44F76C792C3E693800708959 /* RadioSearchIntent.swift in Sources */,
+				4445C0C32C426F3000B43C72 /* CountryRadioListModel.swift in Sources */,
+				44F76C6F2C3E502400708959 /* HttpClient.swift in Sources */,
 				44F76C472C3E20FC00708959 /* RadioPlayerAppApp.swift in Sources */,
+				4445C0E12C432F9A00B43C72 /* RadioPlayerView.swift in Sources */,
+				44F76C732C3E539200708959 /* RadioSearchView.swift in Sources */,
+				4445C0CD2C4315E400B43C72 /* RadioKeywordRequest.swift in Sources */,
+				44F76C5E2C3E409D00708959 /* MVIContainer.swift in Sources */,
+				4445C0C12C426D4200B43C72 /* CountryRadioListView.swift in Sources */,
+				44F76C7B2C3E694900708959 /* RadioSearchModel.swift in Sources */,
+				4445C0B22C41BA3200B43C72 /* DBManager.swift in Sources */,
+				4445C0E32C432FDC00B43C72 /* KeywordRadioListModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
