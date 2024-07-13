@@ -198,20 +198,6 @@
 			path = KeywordRadioListPage;
 			sourceTree = "<group>";
 		};
-		4445C0DC2C432F8400B43C72 /* Intent */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Intent;
-			sourceTree = "<group>";
-		};
-		4445C0DD2C432F8400B43C72 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		4445C0DE2C432F8400B43C72 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,8 +209,6 @@
 		4445C0DF2C432F8400B43C72 /* RadioPlayerPage */ = {
 			isa = PBXGroup;
 			children = (
-				4445C0DC2C432F8400B43C72 /* Intent */,
-				4445C0DD2C432F8400B43C72 /* Model */,
 				4445C0DE2C432F8400B43C72 /* View */,
 			);
 			path = RadioPlayerPage;

@@ -11,6 +11,7 @@ import AVKit
 struct RadioPlayerView: View {
     let radio: RadioInfo
     @State private var player: AVPlayer?
+    @State private var isPlaying = false
 
     var body: some View {
         VStack {
@@ -23,14 +24,27 @@ struct RadioPlayerView: View {
                 .font(.subheadline)
             Text(radio.urlResolved)
                 .font(.subheadline)
-            Button(action: {
-                if let url = URL(string: radio.urlResolved) {
-                    player = AVPlayer(url: url)
-                    player?.play()
+            HStack {
+                Button(action: {
+                    if let url = URL(string: radio.urlResolved) {
+                        player = AVPlayer(url: url)
+                        player?.play()
+                        isPlaying = true
+                    }
+                }) {
+                    Text("Play")
+                        .foregroundColor(.blue)
                 }
-            }) {
-                Text("Play")
-                    .foregroundColor(.blue)
+                .padding()
+                
+                Button(action: {
+                    player?.pause()
+                    isPlaying = false
+                }) {
+                    Text("Stop")
+                        .foregroundColor(.red)
+                }
+                .padding()
             }
         }
         .navigationTitle("Radio Player")
