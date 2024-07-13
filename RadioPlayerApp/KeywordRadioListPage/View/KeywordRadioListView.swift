@@ -4,11 +4,12 @@
 //
 //  Created by KKNANXX on 7/13/24.
 //
+
 import SwiftUI
 
 struct KeywordRadioListView: View {
     @StateObject private var container: MVIContainer<KeywordRadioListIntent, KeywordRadioListModel>
-    @State private var selectedRadio: RadioKeywordInfo?
+    @State private var selectedRadio: RadioInfo?
 
     init(keyword: String) {
         let model = KeywordRadioListModel(keyword: keyword)

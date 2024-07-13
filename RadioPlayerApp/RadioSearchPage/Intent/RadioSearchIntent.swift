@@ -22,7 +22,7 @@ class RadioSearchIntent: ObservableObject {
         model.isLoading = true
         model.errorMessage = nil
         
-        let request = StationsByCountryRequest(country: country)
+        let request = RadioCountryRequest(country: country)
         
         HttpClient().fetchData(from: request)
             .receive(on: DispatchQueue.main)
@@ -34,7 +34,7 @@ class RadioSearchIntent: ObservableObject {
                 case .finished:
                     break
                 }
-            } receiveValue: { (stations: [RadioCountryInfo]) in
+            } receiveValue: { (stations: [RadioInfo]) in
                 self.model.searchResults = stations
                 self.model.isLoading = false
             }

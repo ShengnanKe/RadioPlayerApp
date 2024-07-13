@@ -8,8 +8,8 @@
 import SwiftUI
 import AVKit
 
-struct RadioPlayerView<T: RadioInfo>: View {
-    let radio: T
+struct RadioPlayerView: View {
+    let radio: RadioInfo
     @State private var player: AVPlayer?
 
     var body: some View {
@@ -17,6 +17,8 @@ struct RadioPlayerView<T: RadioInfo>: View {
             Text(radio.name)
                 .font(.largeTitle)
                 .padding()
+            Text("Country: \(radio.country)")
+                .font(.subheadline)
             Text(radio.url)
                 .font(.subheadline)
             Text(radio.urlResolved)

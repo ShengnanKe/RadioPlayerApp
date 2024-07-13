@@ -34,7 +34,7 @@ class KeywordSearchIntent: ObservableObject {
                 case .finished:
                     break
                 }
-            } receiveValue: { (stations: [RadioKeywordInfo]) in
+            } receiveValue: { (stations: [RadioInfo]) in
                 self.model.searchResults = stations
                 self.model.isLoading = false
             }

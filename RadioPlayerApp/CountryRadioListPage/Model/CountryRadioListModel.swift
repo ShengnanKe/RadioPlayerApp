@@ -10,7 +10,7 @@ import Foundation
 class CountryRadioListModel: ObservableObject {
     @Published var isLoading: Bool = false
     @Published var errorMessage: String?
-    @Published var searchResults: [RadioCountryInfo] = []
+    @Published var searchResults: [RadioInfo] = []
     let country: String
     
     init(country: String) {

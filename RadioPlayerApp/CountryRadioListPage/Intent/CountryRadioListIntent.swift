@@ -34,7 +34,7 @@ class CountryRadioListIntent: ObservableObject {
                 case .finished:
                     break
                 }
-            } receiveValue: { (stations: [RadioCountryInfo]) in
+            } receiveValue: { (stations: [RadioInfo]) in
                 self.model.searchResults = stations
                 self.model.isLoading = false
             }

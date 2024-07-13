@@ -14,13 +14,13 @@ struct HomePage: View {
             RadioSearchView()
                 .tabItem {
                     Image(systemName: "list.bullet")
-                    Text("Radio Search")
+                    Text("Country Radio Search")
                 }
             
-            RadioCountryView()
+            KeywordSearchView()
                 .tabItem {
                     Image(systemName: "radio")
-                    Text("Radio Country")
+                    Text("Keyword Radio Search")
                 }
         }
     }

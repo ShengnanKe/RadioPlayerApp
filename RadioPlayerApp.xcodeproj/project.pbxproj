@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		4445C0B22C41BA3200B43C72 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0B12C41BA3200B43C72 /* DBManager.swift */; };
 		4445C0B52C42055300B43C72 /* RadioCountryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0B42C42055300B43C72 /* RadioCountryRequest.swift */; };
-		4445C0B72C42056B00B43C72 /* RadioCountryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0B62C42056B00B43C72 /* RadioCountryInfo.swift */; };
 		4445C0C12C426D4200B43C72 /* CountryRadioListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0C02C426D4200B43C72 /* CountryRadioListView.swift */; };
 		4445C0C32C426F3000B43C72 /* CountryRadioListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0C22C426F3000B43C72 /* CountryRadioListModel.swift */; };
 		4445C0C52C426F4200B43C72 /* CountryRadioListIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0C42C426F4200B43C72 /* CountryRadioListIntent.swift */; };
@@ -18,7 +17,6 @@
 		4445C0D12C43163E00B43C72 /* KeywordSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0D02C43163E00B43C72 /* KeywordSearchModel.swift */; };
 		4445C0D32C431D1E00B43C72 /* KeywordSearchIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0D22C431D1E00B43C72 /* KeywordSearchIntent.swift */; };
 		4445C0D52C431D4F00B43C72 /* KeywordSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0D42C431D4F00B43C72 /* KeywordSearchView.swift */; };
-		4445C0D72C431E0A00B43C72 /* RadioKeywordInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0D62C431E0A00B43C72 /* RadioKeywordInfo.swift */; };
 		4445C0E12C432F9A00B43C72 /* RadioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0E02C432F9A00B43C72 /* RadioPlayerView.swift */; };
 		4445C0E32C432FDC00B43C72 /* KeywordRadioListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0E22C432FDC00B43C72 /* KeywordRadioListModel.swift */; };
 		4445C0E52C432FF600B43C72 /* KeywordRadioListIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0E42C432FF600B43C72 /* KeywordRadioListIntent.swift */; };
@@ -40,7 +38,6 @@
 /* Begin PBXFileReference section */
 		4445C0B12C41BA3200B43C72 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		4445C0B42C42055300B43C72 /* RadioCountryRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioCountryRequest.swift; sourceTree = "<group>"; };
-		4445C0B62C42056B00B43C72 /* RadioCountryInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioCountryInfo.swift; sourceTree = "<group>"; };
 		4445C0C02C426D4200B43C72 /* CountryRadioListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryRadioListView.swift; sourceTree = "<group>"; };
 		4445C0C22C426F3000B43C72 /* CountryRadioListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryRadioListModel.swift; sourceTree = "<group>"; };
 		4445C0C42C426F4200B43C72 /* CountryRadioListIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryRadioListIntent.swift; sourceTree = "<group>"; };
@@ -49,7 +46,6 @@
 		4445C0D02C43163E00B43C72 /* KeywordSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordSearchModel.swift; sourceTree = "<group>"; };
 		4445C0D22C431D1E00B43C72 /* KeywordSearchIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordSearchIntent.swift; sourceTree = "<group>"; };
 		4445C0D42C431D4F00B43C72 /* KeywordSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordSearchView.swift; sourceTree = "<group>"; };
-		4445C0D62C431E0A00B43C72 /* RadioKeywordInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioKeywordInfo.swift; sourceTree = "<group>"; };
 		4445C0E02C432F9A00B43C72 /* RadioPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioPlayerView.swift; sourceTree = "<group>"; };
 		4445C0E22C432FDC00B43C72 /* KeywordRadioListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordRadioListModel.swift; sourceTree = "<group>"; };
 		4445C0E42C432FF600B43C72 /* KeywordRadioListIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordRadioListIntent.swift; sourceTree = "<group>"; };
@@ -85,9 +81,7 @@
 			children = (
 				4445C0E62C43382100B43C72 /* RadioInfo.swift */,
 				4445C0B42C42055300B43C72 /* RadioCountryRequest.swift */,
-				4445C0B62C42056B00B43C72 /* RadioCountryInfo.swift */,
 				4445C0CC2C4315E400B43C72 /* RadioKeywordRequest.swift */,
-				4445C0D62C431E0A00B43C72 /* RadioKeywordInfo.swift */,
 			);
 			path = DataModels;
 			sourceTree = "<group>";
@@ -394,9 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4445C0CF2C43162300B43C72 /* KeywordRadioListView.swift in Sources */,
-				4445C0B72C42056B00B43C72 /* RadioCountryInfo.swift in Sources */,
 				4445C0B52C42055300B43C72 /* RadioCountryRequest.swift in Sources */,
-				4445C0D72C431E0A00B43C72 /* RadioKeywordInfo.swift in Sources */,
 				44F76C532C3E210200708959 /* RadioPlayerApp.xcdatamodeld in Sources */,
 				44F76C602C3E4F0D00708959 /* HomePage.swift in Sources */,
 				4445C0D52C431D4F00B43C72 /* KeywordSearchView.swift in Sources */,

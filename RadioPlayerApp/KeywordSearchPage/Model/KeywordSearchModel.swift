@@ -10,6 +10,6 @@ import Foundation
 class KeywordSearchModel: ObservableObject {
     @Published var isLoading: Bool = false
     @Published var errorMessage: String?
-    @Published var searchResults: [RadioKeywordInfo] = []
+    @Published var searchResults: [RadioInfo] = []
     @Published var searchKeyword: String = ""
 }

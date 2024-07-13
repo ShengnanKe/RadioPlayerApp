@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CountryRadioListView: View {
     @StateObject private var container: MVIContainer<CountryRadioListIntent, CountryRadioListModel>
-    @State private var selectedRadio: RadioCountryInfo?
+    @State private var selectedRadio: RadioInfo?
 
     init(country: String) {
         let model = CountryRadioListModel(country: country)
@@ -24,6 +24,8 @@ struct CountryRadioListView: View {
                     Text(radio.name)
                         .font(.headline)
                     Text(radio.url)
+                        .font(.subheadline)
+                    Text(radio.urlResolved)
                         .font(.subheadline)
                 }
             }

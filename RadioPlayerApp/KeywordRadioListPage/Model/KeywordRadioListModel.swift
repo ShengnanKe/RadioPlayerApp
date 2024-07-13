@@ -10,7 +10,7 @@ import Foundation
 class KeywordRadioListModel: ObservableObject {
     @Published var isLoading: Bool = false
     @Published var errorMessage: String?
-    @Published var searchResults: [RadioKeywordInfo] = []
+    @Published var searchResults: [RadioInfo] = []
     let keyword: String
 
     init(keyword: String) {

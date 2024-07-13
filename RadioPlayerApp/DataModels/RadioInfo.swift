@@ -7,14 +7,22 @@
 
 import Foundation
 
-protocol RadioInfo: Identifiable, Hashable {
-    var stationUUID: String { get }
-    var name: String { get }
-    var url: String { get }
-    var urlResolved: String { get }
-    var country: String { get }
-}
+struct RadioInfo: Decodable, Identifiable, Hashable {
+    let stationUUID: String
+    let name: String
+    let url: String
+    let urlResolved: String
+    let country: String
 
-extension RadioInfo {
-    var id: String { stationUUID }
+    var id: String {
+        stationUUID
+    }
+
+    enum CodingKeys: String, CodingKey {
+        case stationUUID = "stationuuid"
+        case name
+        case url
+        case urlResolved = "url_resolved"
+        case country
+    }
 }

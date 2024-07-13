@@ -10,7 +10,7 @@ import Foundation
 class RadioSearchModel: ObservableObject{
     @Published var isLoading: Bool = false
     @Published var errorMessage: String?
-    @Published var searchResults: [RadioCountryInfo] = []
+    @Published var searchResults: [RadioInfo] = []
     @Published var searchCountry: String = ""
     
     //var hasLoaded: Bool = false
