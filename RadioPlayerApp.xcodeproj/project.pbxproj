@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4445C0B22C41BA3200B43C72 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0B12C41BA3200B43C72 /* DBManager.swift */; };
 		4445C0B52C42055300B43C72 /* RadioCountryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0B42C42055300B43C72 /* RadioCountryRequest.swift */; };
 		4445C0C12C426D4200B43C72 /* CountryRadioListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0C02C426D4200B43C72 /* CountryRadioListView.swift */; };
 		4445C0C32C426F3000B43C72 /* CountryRadioListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445C0C22C426F3000B43C72 /* CountryRadioListModel.swift */; };
@@ -36,7 +35,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4445C0B12C41BA3200B43C72 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		4445C0B42C42055300B43C72 /* RadioCountryRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioCountryRequest.swift; sourceTree = "<group>"; };
 		4445C0C02C426D4200B43C72 /* CountryRadioListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryRadioListView.swift; sourceTree = "<group>"; };
 		4445C0C22C426F3000B43C72 /* CountryRadioListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryRadioListModel.swift; sourceTree = "<group>"; };
@@ -296,7 +294,6 @@
 			isa = PBXGroup;
 			children = (
 				44F76C6E2C3E502400708959 /* HttpClient.swift */,
-				4445C0B12C41BA3200B43C72 /* DBManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -393,7 +390,6 @@
 				44F76C5E2C3E409D00708959 /* MVIContainer.swift in Sources */,
 				4445C0C12C426D4200B43C72 /* CountryRadioListView.swift in Sources */,
 				44F76C7B2C3E694900708959 /* RadioSearchModel.swift in Sources */,
-				4445C0B22C41BA3200B43C72 /* DBManager.swift in Sources */,
 				4445C0E32C432FDC00B43C72 /* KeywordRadioListModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
