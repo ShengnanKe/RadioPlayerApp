@@ -50,4 +50,5 @@ struct RadioPlayerView: View {
         .navigationTitle("Radio Player")
         .navigationBarTitleDisplayMode(.inline)
     }
+    
 }
