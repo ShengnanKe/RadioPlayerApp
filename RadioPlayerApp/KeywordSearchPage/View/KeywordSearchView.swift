@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import Combine
 
 struct KeywordSearchView: View {
     @StateObject private var container: MVIContainer<KeywordSearchIntent, KeywordSearchModel>
@@ -26,7 +25,6 @@ struct KeywordSearchView: View {
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                     Button(action: {
                         isSearching = true
-                        container.intent.fetchKeywordRadioList(for: container.model.searchKeyword)
                     }) {
                         Text("Search")
                     }
@@ -45,5 +43,3 @@ struct KeywordSearchView: View {
         }
     }
 }
-
-

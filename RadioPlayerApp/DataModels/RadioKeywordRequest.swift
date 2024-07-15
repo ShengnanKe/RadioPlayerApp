@@ -22,7 +22,7 @@ struct RadioKeywordRequest: RequestBuilder {
 
     var headers: [String: String]? {
         [
-            "x-rapidapi-key": "cf4863382emsh660b0a010bd400dp1de074jsn26d3499ba6e2",
+            "x-rapidapi-key": "7570b46af4mshaf70502c1dc6726p1cd091jsn8786f55668db",
             "x-rapidapi-host": "bando-radio-api.p.rapidapi.com"
         ]
     }

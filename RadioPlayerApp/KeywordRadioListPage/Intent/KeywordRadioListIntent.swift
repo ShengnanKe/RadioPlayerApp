@@ -31,12 +31,14 @@ class KeywordRadioListIntent: ObservableObject {
                 case .failure(let error):
                     self.model.errorMessage = error.localizedDescription
                     self.model.isLoading = false
+                    print("Error: \(error.localizedDescription)")
                 case .finished:
                     break
                 }
             } receiveValue: { (stations: [RadioInfo]) in
                 self.model.searchResults = stations
                 self.model.isLoading = false
+                print("Received stations: \(stations)")
             }
             .store(in: &cancellables)
     }

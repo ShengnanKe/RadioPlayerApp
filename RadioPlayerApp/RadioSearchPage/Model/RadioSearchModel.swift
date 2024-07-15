@@ -8,11 +8,12 @@
 import Foundation
 
 class RadioSearchModel: ObservableObject{
-    @Published var isLoading: Bool = false
-    @Published var errorMessage: String?
-    @Published var searchResults: [RadioInfo] = []
-    @Published var searchCountry: String = ""
     
+    @Published var searchQuery: String = ""
+    
+    
+    //@Published var errorMessage: String?
     //var hasLoaded: Bool = false
+    //@Published var searchResults: [RadioInfo] = []
     
 }

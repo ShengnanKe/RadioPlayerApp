@@ -6,10 +6,9 @@
 //
 
 import Foundation
+import Combine
 
 class KeywordSearchModel: ObservableObject {
-    @Published var isLoading: Bool = false
-    @Published var errorMessage: String?
-    @Published var searchResults: [RadioInfo] = []
     @Published var searchKeyword: String = ""
 }
+

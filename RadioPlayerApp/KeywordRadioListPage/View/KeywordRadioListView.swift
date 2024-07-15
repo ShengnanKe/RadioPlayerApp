@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Combine
 
 struct KeywordRadioListView: View {
     @StateObject private var container: MVIContainer<KeywordRadioListIntent, KeywordRadioListModel>
@@ -19,7 +20,11 @@ struct KeywordRadioListView: View {
 
     var body: some View {
         List(container.model.searchResults, id: \.self) { radio in
-            NavigationLink(destination: RadioPlayerView(radio: radio), tag: radio, selection: $selectedRadio) {
+            NavigationLink(
+                destination: RadioPlayerView(radio: radio),
+                tag: radio,
+                selection: $selectedRadio
+            ) {
                 VStack(alignment: .leading) {
                     Text(radio.name)
                         .font(.headline)
@@ -33,6 +38,8 @@ struct KeywordRadioListView: View {
         .navigationTitle("Keyword Radio List")
         .onAppear {
             container.intent.fetchKeywordRadioList()
+            print(container.model.searchResults)
         }
+
     }
 }
