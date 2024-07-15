@@ -18,18 +18,18 @@ struct CountryRadioListView: View {
     }
 
     var body: some View {
-        List(container.model.searchResults, id: \.self) { radio in
+        List(container.model.searchResults, id: \.stationUUID) { radio in
             NavigationLink(
                 destination: RadioPlayerView(radio: radio),
                 tag: radio,
                 selection: $selectedRadio
             ) {
                 VStack(alignment: .leading) {
-                    Text(radio.name)
+                    Text(radio.name ?? "no radio name")
                         .font(.headline)
-                    Text(radio.url)
+                    Text(radio.url ?? "none")
                         .font(.subheadline)
-                    Text(radio.urlResolved)
+                    Text(radio.urlResolved ?? "none")
                         .font(.subheadline)
                 }
             }

@@ -15,18 +15,18 @@ struct RadioPlayerView: View {
 
     var body: some View {
         VStack {
-            Text(radio.name)
+            Text(radio.name ?? "none")
                 .font(.largeTitle)
                 .padding()
             Text("Country: \(radio.country)")
                 .font(.subheadline)
-            Text(radio.url)
+            Text(radio.url ?? "none")
                 .font(.subheadline)
-            Text(radio.urlResolved)
+            Text(radio.urlResolved ?? "none")
                 .font(.subheadline)
             HStack {
                 Button(action: {
-                    if let url = URL(string: radio.urlResolved) {
+                    if let url = URL(string: radio.urlResolved ?? "default url") {
                         player = AVPlayer(url: url)
                         player?.play()
                         isPlaying = true

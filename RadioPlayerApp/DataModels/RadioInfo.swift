@@ -7,16 +7,16 @@
 
 import Foundation
 
-struct RadioInfo: Decodable, Identifiable, Hashable {
-    let stationUUID: String
-    let name: String
-    let url: String
-    let urlResolved: String
-    let country: String
+struct RadioInfo: Codable, Hashable { // Identifiable,
+    let stationUUID: String?
+    let name: String?
+    let url: String?
+    let urlResolved: String?
+    let country: String?
 
-    var id: String {
-        stationUUID
-    }
+//    var id: String {
+//        stationUUID ?? ""
+//    }
 
     enum CodingKeys: String, CodingKey {
         case stationUUID = "stationuuid"

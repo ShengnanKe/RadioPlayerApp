@@ -26,11 +26,11 @@ struct KeywordRadioListView: View {
                 selection: $selectedRadio
             ) {
                 VStack(alignment: .leading) {
-                    Text(radio.name)
+                    Text(radio.name ?? "none")
                         .font(.headline)
-                    Text(radio.url)
+                    Text(radio.url ?? "none")
                         .font(.subheadline)
-                    Text(radio.urlResolved)
+                    Text(radio.urlResolved ?? "none")
                         .font(.subheadline)
                 }
             }

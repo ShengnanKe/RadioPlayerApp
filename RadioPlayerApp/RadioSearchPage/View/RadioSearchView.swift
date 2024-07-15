@@ -22,6 +22,7 @@ struct RadioSearchView: View {
         NavigationStack {
             VStack {
                 HStack {
+                    // "Search for country ..." -> should store in constant file
                     TextField("Search for country ...", text: $container.model.searchQuery)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                     Button(action: {
@@ -39,6 +40,7 @@ struct RadioSearchView: View {
                     EmptyView()
                 }
             }
+            // "Radio Search Page" -> constant file
             .navigationTitle("Radio Search Page")
             .navigationBarTitleDisplayMode(.inline)
         }

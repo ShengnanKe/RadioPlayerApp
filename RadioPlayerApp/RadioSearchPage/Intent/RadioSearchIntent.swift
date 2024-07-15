@@ -20,37 +20,3 @@ class RadioSearchIntent: ObservableObject {
 }
 
 
-//
-//class RadioSearchIntent: ObservableObject {
-//    @Published private var model: RadioSearchModel
-//    private var cancellables = Set<AnyCancellable>()
-//
-//    init(model: RadioSearchModel) {
-//        self.model = model
-//    }
-//
-//    func fetchCountryRadioList(for country: String) {
-//        guard !model.isLoading else { return }
-//        
-//        model.isLoading = true
-//        model.errorMessage = nil
-//        
-//        let request = RadioCountryRequest(country: country)
-//        
-//        HttpClient().fetchData(from: request)
-//            .receive(on: DispatchQueue.main)
-//            .sink { completion in
-//                switch completion {
-//                case .failure(let error):
-//                    self.model.errorMessage = error.localizedDescription
-//                    self.model.isLoading = false
-//                case .finished:
-//                    break
-//                }
-//            } receiveValue: { (stations: [RadioInfo]) in
-//                self.model.searchResults = stations
-//                self.model.isLoading = false
-//            }
-//            .store(in: &cancellables)
-//    }
-//}
